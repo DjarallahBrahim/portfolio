@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
         <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0">
           <img
-            src="/public/profile-pic.png"
+            src="./profile-pic.png"
             alt="Profile"
             className="w-full h-full object-cover"
           />
