@@ -9,7 +9,7 @@ const projects = [
     tech: ['Terraform', 'AWS', 'Python', 'Vault'],
     github: '#',
     demo: 'https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/',
-    image: '/ressources/ckad.png',
+    image: './ckad.png',
   },
 ];
 
