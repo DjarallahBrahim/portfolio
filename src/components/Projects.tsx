@@ -4,13 +4,13 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Certified kubernetes application developer CKAD',
+    title: "JobStream : publier et trouver des emplois",
     description:
-      "Framework Terraform pour le déploiement automatisé d'infrastructures multi-cloud avec gestion des secrets.",
-    tech: ['Terraform', 'AWS', 'Python', 'Vault'],
-    github: '#',
-    demo: 'https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/',
-    image: './BIWT.png',
+      "JobStream permet aux entreprises de partager des offres d'emploi et événements. Ces annonces sont envoyées via un producteur Kafka, puis un consommateur Kafka les traite et déclenche l'envoi d'emails aux utilisateurs. L'application est hébergée sur Google Cloud Platform pour une diffusion rapide et fiable.",
+    tech: ['Spring Boot', 'KAfka', 'React', 'Docker', 'GCP', 'Github action', 'Kubernetes'],
+    github: 'https://github.com/DjarallahBrahim?tab=repositories',
+    demo: 'https://github.com/DjarallahBrahim?tab=repositories',
+    image: './JobStream.png',
   },
 ];
 
